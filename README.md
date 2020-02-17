@@ -50,12 +50,19 @@ SEIR模型在[SIR](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemi
 这三种情形通过human-flow-range参数来模拟，human-flow-range是相对每个人家庭位置的活动范围，abc分别对应human-flow-range的值为50、10、2。下面为各主体人数变化情况
 
 ![](https://github.com/dpoqb/netlogo_SEIR_2019/blob/master/lab1-img1.png)
-*human-flow-range = 50*
+*a:human-flow-range = 50*
 
 ![](https://github.com/dpoqb/netlogo_SEIR_2019/blob/master/lab1-img2.png)
-*human-flow-range = 10*
+*b:human-flow-range = 10*
 
 ![](https://github.com/dpoqb/netlogo_SEIR_2019/blob/master/lab1-img3.png)
-*human-flow-range = 2*
+*c:human-flow-range = 2*
 
-通过对比发现，人们如果不进行隔离而去接触许多人的话，被感染的人数峰值会很大很多，
+通过对比仿真绘图发现，人们如果不进行隔离而去接触许多人的话，被感染的人数峰值会大很多而且会提前，如果大家都减少活动范围，自己宅在家中，潜伏者和感染者那两条线就几乎消失了，这就是为什么说，在病毒蔓延之际，采用自我隔离的方法是控制疫情最有效的措施之一。
+
+## 5、模型优化
+该仿真模型基本符合SEIR模型的运行结果，并且设置一些基本参数，实际上还可以对模型进行优化，实现一些更加复杂的仿真，比如：
+
+* 已经发现，各个年龄段的人都可能被感染新冠病毒，被感染的主要是成年人，其中老年人和体弱多病的人似乎更容易被感染。儿童和孕产妇是新型冠状病毒感染的肺炎的易感人群。模型需要提现出不同的人群之间的差异，比如这里所说的“年龄”
+* 本模型人口分布采用的是随机分布，还可以构建更加复杂的人口分布，比如不同密集程度的人口分布，人口越密集的地方，像城市，病毒蔓延的速度会比人烟稀少的地方更快一些
+
