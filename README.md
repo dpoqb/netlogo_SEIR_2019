@@ -9,7 +9,7 @@
 
 *图片来源：知乎-信号处理工程师的日常*
 
-SEIR模型在[SIR](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)模型的基础之上新增加了一个潜伏者（Exposed），这和新冠病毒实际情况更加符合，易感染人群在一开始会经历潜伏期，一段时间之后才出现症状，李兰娟院士认为，潜伏期患者也有可能具有传染性，潜伏者按照一定概率转化为感染者，因此，SEIR微分方程为：
+SEIR模型在[SIR](https://en.wikipedia.org/wiki/Compartmental_models_in_epidemiology#The_SIR_model)模型的基础之上新增加了一个潜伏者（Exposed），这和新冠病毒实际情况更加符合，易感染人群在一开始会经历潜伏期，一段时间之后才出现症状，李兰娟院士认为：潜伏期患者也有可能具有传染性。潜伏者按照一定概率转化为感染者，因此，SEIR微分方程为：
 
 ![](https://www.zhihu.com/equation?tex=dS%2Fdt%3D-r%5Cbeta+IS%2FN%5C%5C+dE%2Fdt%3Dr%5Cbeta+IS%2FN-%5Calpha+E%5C%5C+dI%2Fdt%3D%5Calpha+E-%5Cgamma+I%5C%5C+dR%2Fdt%3D%5Cgamma+I "方程1")
 
