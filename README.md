@@ -1,6 +1,5 @@
 # SEIR传染病模型netlogo仿真程序
-![](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3583499134,1389607878&fm=11&gp=0.jpg "")
-
+![](https://img-blog.csdnimg.cn/2020021919134592.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzM1OTg4NjQ4,size_16,color_FFFFFF,t_70)
 2019年年底，一场突如其来的传染病席卷中国湖北武汉，新型冠状病毒感染的肺炎疫情悄然蔓延，从武汉波及全国，牵动人心。受到B站某UP主仿真程序的启发，
 想通过计算机仿真实现一个更加真实的病毒传播仿真模型，下面是我的仿真模型的基本介绍和模型演示。
 
